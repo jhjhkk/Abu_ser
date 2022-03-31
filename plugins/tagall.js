@@ -112,7 +112,7 @@ else if (Config.WORKTYPE == 'public') {
     }
 }));
 var stag_dsc = ''
-if (Config.LANG !== 'ML') stag_dsc = 'Sends the replied message to all members in the group.'
+if (Config.LANG !== 'ML') stag_dsc = 'يرسل رسالة جماعية لجميع أعضاء المجموعة.'
 if (Config.LANG == 'ML') stag_dsc = 'ഗ്രൂപ്പിലെ എല്ലാ അംഗങ്ങൾക്കും മറുപടി സന്ദേശം അയയ്ക്കുന്നു.'
 
 Asena.addCommand({pattern: 'bc$', fromMe: true, desc: stag_dsc }, (async (message, match) => {
