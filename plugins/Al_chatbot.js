@@ -23,7 +23,7 @@ let wk = conf.WORKTYPE == 'public' ? false : true
 var vtalk_dsc = ''
 var reply_eva = ''
 if (conf.LANG == 'TR') vtalk_dsc = 'Eva sesli sohbetini başlatır.', reply_eva = '*Herhangi Bir Sesli Mesaja Yanıt Verin!*'
-if (conf.LANG == 'EN') vtalk_dsc = 'Starts to raganork voice chat.', reply_eva = '*Reply to Any Voice Message!*'
+if (conf.LANG == 'EN') vtalk_dsc = 'يبدأ بوت شينوبو في دردشة الصوتية.'، reply_eva = '*الرد على أي رسالة صوتية! *'
 if (conf.LANG == 'AZ') vtalk_dsc = 'Eva səsli söhbətinə başlayır.', reply_eva = '*Hər hansı bir səsli mesaja cavab verin!*'
 if (conf.LANG == 'PT') vtalk_dsc = 'Começa o bate-papo por voz de Eva.', reply_eva = '*Responder a qualquer mensagem de voz!*'
 if (conf.LANG == 'RU') vtalk_dsc = 'Запускает голосовой чат Eva.', reply_eva = '*Ответьте на любое голосовое сообщение!*'
@@ -220,11 +220,11 @@ if (conf.LANG == 'TR') {
     succ_off = 'Abu, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
 }
 if (conf.LANG == 'EN') {
-    fulleva_dsc = 'Turns on AI powered chatbot on to your account!'
-    already_on = 'Amalaer chatbot is already on.'
-    already_off = 'Abu chatbot is currently turned off!.'
-    succ_on = 'Abu chatbot on! Restarting to make chatbot ✅'
-    succ_off = 'Abu chatbot off Restarting to make normal  ❤️'
+    fulleva_dsc = 'يتم تشغيل روبوت الدردشة المدعوم من AI في حسابك!'
+    already_on = 'برنامج الدردشة Amalaer قيد التشغيل بالفعل.'
+    already_off = 'روبوت الدردشة أبو متوقف حاليا!' 
+    succ_on = 'Abu chatbot قيد التشغيل! إعادة تشغيل لجعل chatbot' 
+    succ_off = 'Abu chatbot متوقف عن إعادة التشغيل ليعود إلى الوضع الطبيعي'
 }
 if (conf.LANG == 'ML') {
     fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Abu chatbot സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
